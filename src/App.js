@@ -7,7 +7,7 @@ function App() {
   const [apellido, setApellido] = useState("");
 
   const mostrarInformacion = () => {
-    alert(`Nombre: ${nombre}. Apellido: ${apellido}`)
+    console.log(`Nombre: ${nombre}. Apellido: ${apellido}`)
   }
 
   return (
